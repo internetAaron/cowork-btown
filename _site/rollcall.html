@@ -103,7 +103,8 @@
   <div class="container">
   <div class="row">
     <div class="twelve columns">
-      <h2>Cowork Btown Rollcall</h2>
+      <h2 class="l-less-margin">#coworkbtown Paparazzi</h2>
+      <span class="instructions">Tag your Instagram photos with <strong>#coworkbtown</strong> and they'll show up here.</span>
     </div>
   </div>
 </div>
@@ -111,7 +112,7 @@
 <div class="container">
   <div class="row">
     <div class="twelve columns">
-      <div class="instagram"></div>
+      <ul class="instagram"></ul>
     </div>
   </div>
 </div>
@@ -177,6 +178,8 @@
       $(".instagram").instagram({
           hash: 'coworkbtown'
         , clientId: '8ddbfe2e4aeb4884bada604c264d7cef'
+        , image_size: 'standard_resolution'
+        , userID: true
       });
     });
   </script>

@@ -53,14 +53,14 @@
           .append(innerHtml);
       }
 
-      return $('<div>')
+      return $('<li>')
         .addClass('instagram-placeholder')
         .attr('id', photo.id)
         .append(innerHtml);
     }
     
     function createEmptyElement() {
-      return $('<div>')
+      return $('<li>')
         .addClass('instagram-placeholder')
         .attr('id', 'empty')
         .append($('<p>').html('No photos for this query'));
