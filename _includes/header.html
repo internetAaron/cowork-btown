@@ -8,23 +8,23 @@
       </h1>
     </div><!-- /div.sixteen.columns -->
     <div class="six columns">
-         <!-- <li><a class="current" href="/index.html">cowork</a></li>
-         <li><a href="/events.html">events</a></li>
-         <li><a href="/blog">blog</a></li> -->
-         {% unless page.layout == 'front' %}
-            <ul class="navigation">
-              {% for link in site.navigation %}
-                {% assign current = nil %}
-                {% if page.url == link.url or page.layout == link.layout %}
-                  {% assign current = 'current' %}
-                {% endif %}
+      <!-- <li><a class="current" href="/index.html">cowork</a></li>
+      <li><a href="/events.html">events</a></li>
+      <li><a href="/blog">blog</a></li> -->
+      {% unless page.layout == 'front' %}
+        <ul class="navigation">
+          {% for link in site.navigation %}
+            {% assign current = nil %}
+            {% if page.url == link.url or page.layout == link.layout %}
+              {% assign current = 'current' %}
+            {% endif %}
 
-                <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-                  <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          {% endunless %}
+            <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+              <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endunless %}
     </div>
   </div> 
 </div>

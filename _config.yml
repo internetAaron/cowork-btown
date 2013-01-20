@@ -16,5 +16,7 @@ navigation:
   url: /index.html
 - text: events
   url: /events.html
+- text: rollcall
+  url: /rollcall.html
 - text: blog
   url: /blog/index.html
