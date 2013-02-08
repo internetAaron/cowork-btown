@@ -1,11 +1,10 @@
 body#home {
-  background: url('../images/site/banner-bg.jpg') top center no-repeat, 
-  url('..images/site/noise.png');
+  background: url('..images/site/noise.png');
 }
 
 .l-white-bg {
   background: rgba(255, 255, 255, 0.8);
-  margin-top: 175px;
+  margin-top: 0px;
   padding-top: 1.0em;
 }
 
