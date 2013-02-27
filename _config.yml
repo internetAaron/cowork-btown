@@ -9,14 +9,3 @@ paginate: 3
 
 paginate_base: "blog" # Puts all pagination folders in the "blog" dir, e.g. "/blog/page2"
 paginate_index: "blog/index.html" # Paginates using the specified file
-
-
-navigation:
-- text: cowork
-  url: /index.html
-- text: events
-  url: /events.html
-- text: rollcall
-  url: /rollcall.html
-- text: blog
-  url: /blog/index.html
