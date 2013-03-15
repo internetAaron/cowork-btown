@@ -1,5 +1,6 @@
 body#home {
-  background: url('..images/site/noise.png');
+  background: url('../images/site/banner-bg-2.jpg') top center no-repeat, 
+  url('..images/site/noise.png');
 }
 
 .l-white-bg {
@@ -25,7 +26,7 @@ h4 {
 .mast-head .row {
   border-bottom: 1px solid #D5D5D5;
   padding: 0.7em 0;
-  margin-bottom: 2.0em;
+  margin-bottom: 350px;
   display: block;
 }
 
