@@ -59,6 +59,7 @@ body#home .mast-head .logo {
 
 body#home .mast-head .yellow {
   padding: 1.55em 0 0 0;
+  float: right;
 }
 
 .mast-head h1 {
@@ -444,4 +445,35 @@ ul.instagram li {
 
 .instagram img:hover {
   border: 6px solid #EB9B35;
+}
+
+
+
+@media (max-width: 767px) {
+  h1.hero {
+    font-size: 2.5em;
+    margin-bottom: 1.6em;
+  }
+
+  body#home .mast-head h1 {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    float: none;
+  }
+
+  body#home .mast-head .logo {
+    margin-top: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  body#home .mast-head .yellow {
+    padding: 0;
+    float: none;
+    text-align: center;
+    display: table;
+    margin: 0 auto 1.0em auto;
+  }
 }
