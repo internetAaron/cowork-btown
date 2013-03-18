@@ -3,8 +3,12 @@ body#home {
   url('..images/site/noise.png');
 }
 
+/*  Fonts  */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+
+
 .l-white-bg {
-  background: rgba(255, 255, 255, 0.8);
   margin-top: 0px;
   padding-top: 1.0em;
 }
@@ -14,25 +18,46 @@ img {
 }
 h1, h2, h3, h4, h5 {
   color: #444444;
+  font-family: 'Droid Sans', sans-serif;
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 0.1em;
 }
 
 h4 {
-  margin: 1.5em 0 1.0em 0;
+  margin: 0 0 1.0em 0;
   display: block;
 }
 
 /***  MastHead *****/
 
 .mast-head .row {
-  border-bottom: 1px solid #D5D5D5;
-  padding: 0.7em 0;
+  padding: 0.7em 0 0 0;
   margin-bottom: 75px;
   display: block;
 }
 
 body#home .mast-head {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   border-bottom: none;
+}
+
+body#home .mast-head a {
+  display: inline-block;
+}
+
+body#home .mast-head img {
+  opacity:0.75;
+}
+
+body#home .mast-head .logo {
+  margin-top: 0;
+}
+
+body#home .mast-head .yellow {
+  padding: 1.75em 0 0 0;
 }
 
 .mast-head h1 {
@@ -66,6 +91,15 @@ body#home .mast-head {
 
 .mast-head ul a.current {
   border-bottom: 3px solid #DF842D;
+}
+
+h1.hero {
+  font-size: 4.2em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(67, 67, 67, 0.75);
+  margin-bottom: 1.5em;
+  opacity: 0.8;
 }
 
 .orange {
