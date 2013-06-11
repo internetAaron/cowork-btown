@@ -32,6 +32,17 @@ h4 {
   display: block;
 }
 
+h5 {
+  margin: 0.5em 0 0.2em 0;
+}
+
+small {
+  font-size: 0.9em;
+  color: #666;
+  display: block;
+  margin: 0 0 0.5em 0;
+}
+
 /***  MastHead *****/
 
 .mast-head .row {
