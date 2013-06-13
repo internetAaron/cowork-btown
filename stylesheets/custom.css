@@ -1,5 +1,5 @@
 body#home {
-  background: url('../images/site/banner-bg-2.jpg') top center no-repeat, 
+  background: url('../images/site/office-bg.jpg') top center no-repeat, 
   url('..images/site/noise.png');
   font-family: 'Droid Sans', sans-serif;
 }
@@ -487,4 +487,10 @@ ul.instagram li {
     display: table;
     margin: 0 auto 1.0em auto;
   }
+}
+
+img.border {
+  -webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow:    0px 0px 3px rgba(50, 50, 50, 0.25);
+  box-shadow:         0px 0px 3px rgba(50, 50, 50, 0.25);
 }
