@@ -438,7 +438,7 @@ table tr:nth-of-type(odd) {
 h3.rollcall {
   margin-bottom: 1.0em;
   color: #444444;
-  font-size: 1.8em;
+  font-size: 1.5em;
   display: block;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -449,21 +449,21 @@ h3.rollcall strong {
   color: #EB9B35;
 }
 
-ul.instagram {
+#instafeed {
   list-style: none;
 }
 
-ul.instagram li {
+#instafeed a {
   display: inline-block;
   float: left;
-  max-width: 33.333%;
+  width: 25%;
   padding: 0.5em;
   -webkit-box-sizing: border-box; 
   -moz-box-sizing: border-box;
   box-sizing: border-box; 
 }
 
-.instagram img {
+#instafeed img {
   max-width: 100%;
   /*border: 6px solid #ffffff;*/
   -moz-box-shadow:    0px 0px 4px 0px #ccc;
@@ -477,10 +477,9 @@ ul.instagram li {
   transition:         all 0.1s linear;
 }
 
-.instagram img:hover {
+#instafeed img:hover {
   border: 6px solid #EB9B35;
 }
-
 
 
 @media (max-width: 767px) {
@@ -517,10 +516,10 @@ ul.instagram li {
     margin: 0 auto 1.0em auto;
   }
 
-  ul.instagram li {
+  #instafeed a {
     display: inline-block;
     float: left;
-    max-width: 50%;
+    width: 50%;
     padding: 0.5em;
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box;
