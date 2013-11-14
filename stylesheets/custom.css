@@ -4,6 +4,12 @@ body#home {
   font-family: 'Droid Sans', sans-serif;
 }
 
+body#home.new-space {
+  background: url('../images/site/banner-bg-new.jpg') top center no-repeat, 
+  url('..images/site/noise.png');
+  font-family: 'Droid Sans', sans-serif;
+}
+
 /*  Fonts  */
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 
@@ -533,6 +539,15 @@ img.border {
   box-shadow:         0px 0px 3px rgba(50, 50, 50, 0.25);
 }
 
+/* Announcement */
+
+
+body.mitch-bros-bg {
+  padding: 1.0em 0;
+  background: url(../images/site/mb-bg.jpg) no-repeat center fixed;
+  color: #fff;
+}
+
 
 /* night-owl */
 
@@ -542,25 +557,27 @@ body.night-owl-bg {
   color: #fff;
 }
 
-.night-owl-bg h3 {
-  margin-bottom: 2.0em;
+.img-bg h1, .img-bg h2, .img-bg h3, .img-bg h4, .img-bg p, .img-bg a {
+  color: #b1b1b1;
+}
+
+.img-bg h3 {
+  margin-bottom: 1.0em;
   color: #ebebeb;
 }
 
-.night-owl-bg p {
+.img-bg p {
   font-size: 1.4em;
-  color: #b1b1b1;  
 }
 
-.night-owl-bg h4 {
+.img-bg h4 {
   margin-bottom: 0em;
+}
+
+.img-bg p small a {
   color: #b1b1b1;
 }
 
-.night-owl-bg p small a {
-  color: #b1b1b1;
-}
-
-.night-owl-bg .mast-head .row.new {
+.img-bg .mast-head .row.new {
   border-bottom: 1px solid #3f3f3f;
 }

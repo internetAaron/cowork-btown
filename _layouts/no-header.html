@@ -11,7 +11,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Cowork Btown</title>
+  <title>{{site.site_name}}</title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
@@ -53,52 +53,11 @@
 
 </head>
 
-<body class="night-owl-bg img-bg">
+<body class="mitch-bros-bg img-bg">
 
-  <div class="container mast-head">
-  <div class="row new">
-    <div class="six columns">
-         <a href="/index.html" class="logo">
-            <img class="scale-with-grid new-logo" src="/images/site/logo-v2.png" alt="Cowork Bloomington - Independent Collaboration">   
-         </a>
-    </div><!-- /div.sixteen.columns -->
-    <div class="six columns">
-      <ul class="pull-right">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="nightowl.html">Events</a></li>
-        <li><a href="rollcall.html">Rollcall</a></li>
-      </ul>
-    </div>
-  </div> 
-</div>
+  {% include header-new.html %}
 
-
-
-  <div>
-  <div class="container text-center">
-    <div class="row">
-      <div class="twelve column">
-        <img src="images/site/night-owls-logo-white.png" alt="Night Owls">
-      </div>
-    </div>  
-  <div class="row l-white-bg">
-    <div class="eight offset-by-two columns">
-      <h3>beer + snacks + music + camaraderie</h3>
-      <p>Stop by after work for a night of nerd! Cowork Btown will have beer, snacks, music, and camaraderie. Take the opportunity to share what you’ve been working on, learn more about Bloomington happenings, and/or tackle a side project.</p>
-
-      <p>Come and stay the whole time or just drop in to say hello.</p>
-      <p>&nbsp;</p>
-
-
-
-      <h4>TBD</h4>
-      <p><small><a href="">Cowork Btown Office - 408 South Walnut Street</a></small></p>
-      <p><a href="http://www.formstack.com/forms/?1576766-dbLnXJ2ISr" class="btn primary">RSVP</a></p>
-
-      
-    </div><!-- /div.row -->
-  </div>
-</div>
+  {{content}}
 
 
   <!-- Included JS Files (Uncompressed) -->
