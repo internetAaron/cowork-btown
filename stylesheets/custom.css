@@ -610,7 +610,7 @@ ul.plans {
 
 ul.plans li {
   box-sizing: border-box;
-  width: 23%;
+  width: 31%;
   margin: 0 1%;
   padding: 1em;
   float: left;
@@ -628,19 +628,19 @@ ul.plans a.btn.primary {
   left: 30%;
 }
 
-ul.plans li.designated {
+ul.plans li:nth-of-type(1) {
   border-top: 6px solid #D87411;
 }
 
-ul.plans li.three-days {
+ul.plans li:nth-of-type(2) {
   border-top: 6px solid #EEA052;
 }
 
-ul.plans li.two-days {
+ul.plans li:nth-of-type(3) {
   border-top: 6px solid #F0C395;
 }
 
-ul.plans li.drop-ins {
+ul.plans li:nth-of-type(4) {
   border-top: 6px solid #EED1B4;
 }
 
