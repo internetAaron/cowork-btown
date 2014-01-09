@@ -10,6 +10,12 @@ body#home.new-space {
   font-family: 'Open Sans', sans-serif;
 }
 
+body#events {
+  background: url('../images/site/events.jpg') top center no-repeat, 
+  url('..images/site/noise.png');
+  font-family: 'Open Sans', sans-serif;
+}
+
 /*  Fonts  */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
@@ -31,6 +37,16 @@ h1, h2, h3, h4, h5 {
 
 h2 {
   margin-bottom: 0.1em;
+}
+
+h3 {
+  line-height: 0.8em;
+}
+
+h3 span.kicker {
+  font-size: 0.5em;
+  color: #888;
+  font-weight: normal;
 }
 
 h4 {
@@ -98,6 +114,12 @@ small {
   border-bottom: 1px solid #DFDFDF;
 }
 
+body#events .mast-head .row.new {
+  margin-bottom: 2.0em;
+  padding-bottom: 1.0em;
+  border-bottom: 1px solid #7c7c7c;
+}
+
 body#home .mast-head {
   background: rgba(250, 250, 250, 0.85);
   border-bottom: none;
@@ -122,6 +144,10 @@ body#home .mast-head .logo {
 
 .mast-head .new-logo {
   width: 200px;
+}
+
+body.rolecall .mast-head.no-bg ul li a {
+  color: #4a4a4a;
 }
 
 body#home .mast-head .yellow {

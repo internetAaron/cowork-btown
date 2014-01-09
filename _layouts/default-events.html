@@ -11,7 +11,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Cowork Btown</title>
+  <title>{{site.site_name}}</title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
@@ -55,66 +55,11 @@
 
 <body id="events" class="events">
 
-  <div class="container mast-head no-bg">
-  <div class="row new">
-    <div class="six columns">
-         <a href="/index.html" class="logo">
-            <img class="scale-with-grid new-logo" src="/images/site/logo-white.png" alt="Cowork Bloomington - Independent Collaboration">   
-         </a>
-    </div><!-- /div.sixteen.columns -->
-    <div class="six columns">
-      <ul class="pull-right">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="rollcall.html">Rollcall</a></li>
-      </ul>
-    </div>
-  </div> 
-</div>
+  {% include header-new.html %}
 
+  {{content}}
 
-
-  <div class="container">
-  <div class="row">
-    <div class="twelve column">
-      <h1 class="hero">Work is so much better with awesome coworkers<span class="kicker">It's even better in our new wicked awesome space</span></h1>
-    </div>
-  </div>  
-
-  <div class="row l-white-bg">
-    <div class="eight columns">
-      <h3>Night Owl <br> <span class="kicker">Jan 15, 7p - Midnight</span></h3>
-      <p>Stop by after work for a night of nerd! Cowork Btown will have beer, snacks, music, and camaraderie. Take the opportunity to share what you’ve been working on, learn more about Bloomington happenings, and/or tackle a side project.</p>
-
-      <p>Come and stay the whole time or just drop in to say hello.</p>
-      <p><a href="events-form.html" class="btn primary">RSVP</a> </p>
-    </div>
-    <div class="four columns">
-       <div class="highlightBg">
-          <h4>Featured Guest Speaker</h4>
-          <p>TBD - As apart of our night owl events we'll be doing in person or video interviews with some awesome people that we could all learn a thing or two from.</p>
-       </div>
-    </div>
-  </div>
-
-  </div>
-
-  <div class="footer">
-  <div class="row">
-    <div class="twelve columns">
-      <hr>
-    </div>
-  </div>
-  <div class="row">
-    <div class="nine columns">
-      <p>Copyright &#169; 2012. &nbsp;
-        If you have any questions or want to meet we can be reached <a href="mailto:&#97;&#97;&#114;&#111;&#110;&#64;&#99;&#97;&#108;&#108;&#109;&#101;&#97;&#97;&#114;&#111;&#110;&#46;&#99;&#111;&#109;">here</a>.</p>
-    </div>
-    <div class="three columns">
-      
-    </div>
-  </div>
-</div>
+  {% include footer.html %}
 
   <!-- Included JS Files (Uncompressed) -->
   <!--
