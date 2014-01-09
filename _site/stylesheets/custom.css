@@ -45,8 +45,7 @@ h3 {
 
 h3 span.kicker {
   font-size: 0.5em;
-  color: #888;
-  font-weight: normal;
+  color: #4380A1;
 }
 
 h4 {
@@ -249,6 +248,7 @@ h1.hero span.kicker {
 /*** Highlight Background  ***/
 .highlightBg {
    padding: 8px 12px;
+   margin-bottom: 1.5em;
    background: #F5F4F6;
    -moz-border-radius: 2px;
    -webkit-border-radius: 2px;
