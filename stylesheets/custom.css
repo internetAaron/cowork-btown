@@ -92,6 +92,22 @@ small {
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
+/* Success Message */
+.success {
+  background: rgba(233, 153, 52, 0.23);
+  border: 1px solid #E99934;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  border-radius: 4px;
+}
+
+.success p {
+  margin-bottom: 0;
+  color: #C07324;
+  font-size: 1.3em;
+  text-align: center;
+}
+
 /***  MastHead *****/
 
 .mast-head.no-bg {
